@@ -1,0 +1,55 @@
+https://coolors.co/13293d-006494-247ba0-f4e04d-f2ed6f
+
+
+/* CSS HEX */
+--prussian-blue: #13293dff;
+--lapis-lazuli: #006494ff;
+--cerulean: #247ba0ff;
+--maize-2: #f2ed6fff;
+
+/* CSS HSL */
+--prussian-blue: hsla(209, 53%, 16%, 1);
+--lapis-lazuli: hsla(199, 100%, 29%, 1);
+--cerulean: hsla(198, 63%, 38%, 1);
+--maize: hsla(53, 88%, 63%, 1);
+--maize-2: hsla(58, 83%, 69%, 1);
+
+/* SCSS HEX */
+$prussian-blue: #13293dff;
+$lapis-lazuli: #006494ff;
+$cerulean: #247ba0ff;
+$maize: #f4e04dff;
+$maize-2: #f2ed6fff;
+
+/* SCSS HSL */
+$prussian-blue: hsla(209, 53%, 16%, 1);
+$lapis-lazuli: hsla(199, 100%, 29%, 1);
+$cerulean: hsla(198, 63%, 38%, 1);
+$maize: hsla(53, 88%, 63%, 1);
+$maize-2: hsla(58, 83%, 69%, 1);
+
+/* SCSS RGB */
+$prussian-blue: rgba(19, 41, 61, 1);
+$lapis-lazuli: rgba(0, 100, 148, 1);
+$cerulean: rgba(36, 123, 160, 1);
+$maize: rgba(244, 224, 77, 1);
+$maize-2: rgba(242, 237, 111, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-right: linear-gradient(90deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-bottom: linear-gradient(180deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-left: linear-gradient(270deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-top-right: linear-gradient(45deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-bottom-right: linear-gradient(135deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-top-left: linear-gradient(225deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-bottom-left: linear-gradient(315deg, #13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+$gradient-radial: radial-gradient(#13293dff, #006494ff, #247ba0ff, #f4e04dff, #f2ed6fff);
+
+
+
+
+
+<!-- Coolors Palette Widget -->
+      <script src="https://coolors.co/palette-widget/widget.js"></script>
+      <script data-id="038957678987874667">new CoolorsPaletteWidget("038957678987874667", ["13293d","006494","247ba0","f4e04d","f2ed6f"]); </script>
