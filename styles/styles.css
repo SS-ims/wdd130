@@ -1,0 +1,33 @@
+main {
+    max-width: 840px;
+}
+main img {
+    width: 150px;
+    height: auto;
+    padding: 1px;
+    background-color: azure;
+    border: 1px solid rgb(0,0,0, 0.3);
+    box-shadow: 0 0 50px rgb(117, 110, 110);
+
+}
+aside{
+    width:20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0, 0.2);
+    background-color: grey;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+p{
+    padding: 0;
+}
+footer{
+    margin-top: 5rem;
+    border-top: 1px solid rgb(0,0,0, 1);
+    text-align: center;
+}
