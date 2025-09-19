@@ -1,5 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 main {
     max-width: 840px;
+}
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    margin-bottom: 0.5rem;
 }
 main img {
     width: 150px;
@@ -8,20 +18,24 @@ main img {
     background-color: azure;
     border: 1px solid rgb(0,0,0, 0.3);
     box-shadow: 0 0 50px rgb(117, 110, 110);
+    float: right;
 
 }
 aside{
+    position: relative;
     width:20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0,0,0, 0.2);
-    background-color: grey;
-    color: black;
-    padding: 1rem;
+    
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
+}
+aside h2{
+    position: absolute;
+    margin-top: 1rem;
+    top: 10px;
+    left: 110px;
 }
 p{
     padding: 0;
@@ -30,4 +44,12 @@ footer{
     margin-top: 5rem;
     border-top: 1px solid rgb(0,0,0, 1);
     text-align: center;
+}
+/* class selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0, 0.2);
+    padding: 1rem;
+    background-color: lightgrey;    
+    color: black;
 }
