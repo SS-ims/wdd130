@@ -6,10 +6,19 @@
 main {
     max-width: 840px;
 }
+
 h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkblue;
     margin-bottom: 0.5rem;
+} 
+
+h1{
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+    color:  rgb(5, 5, 97);
+
 }
 main img {
     width: 150px;
@@ -20,6 +29,18 @@ main img {
     box-shadow: 0 0 50px rgb(117, 110, 110);
     float: right;
 
+}
+nav{
+    background-color: rgb(40, 115, 150);
+    padding: 3%;
+}
+nav a{
+    display: block;
+    padding: 1%;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+    font:1.2em sans-serif;
 }
 aside{
     position: relative;
@@ -52,4 +73,10 @@ footer{
     padding: 1rem;
     background-color: lightgrey;    
     color: black;
+}
+
+ul li{
+    list-style: none;
+    padding: 0.3em;
+    
 }
