@@ -45,8 +45,9 @@ nav a{
 aside{
     position: relative;
     width:20rem;
-    
+    margin: auto;
     text-align: center;
+    border: 1px solid rgb(0,0,0, 0.2);
 }
 aside img {
     width: 200px;
