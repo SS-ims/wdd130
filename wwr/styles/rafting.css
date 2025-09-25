@@ -23,6 +23,14 @@ header{
     align-items: center;
     padding: 10px 20px;
 }
+header nav{
+    display: flex;
+}
+header nav a{
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -42,11 +50,9 @@ nav,p,section,article{
     margin: 16px ;
     padding: 8px;
 }
-.social-media a{
-    margin: 0 10px;
 
-    
-}
+
+
 .hero{
     position: relative;
     text-align: center;
@@ -98,4 +104,6 @@ nav,p,section,article{
 
     .social-media{
         text-decoration: none;
+        margin: 0 10px;
     }
+    
