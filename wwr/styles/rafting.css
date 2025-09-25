@@ -44,7 +44,7 @@ nav,p,section,article{
 }
 .social-media a{
     margin: 0 10px;
-    text-decoration: none;
+
     
 }
 .hero{
@@ -94,4 +94,8 @@ nav,p,section,article{
     .hero article p{
         font-size: small;
         text-align: justify;
+    }
+
+    .social-media{
+        text-decoration: none;
     }
