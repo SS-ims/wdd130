@@ -132,11 +132,13 @@ nav,p,section,article{
         background-color: var(--secondary-color);
         border-radius: 5%;
         box-shadow:0 0 10px rgb(255, 254, 254) ;
+        border:#2378a0;
     }
     figure img{
         width: 95%;
         margin: 2%;
         border-radius: 5%;
+
     }
     footer{
         display: flex;
