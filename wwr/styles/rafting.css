@@ -63,7 +63,7 @@ nav,p,section,article{
     width: 100%;
     height: auto;
 }
-    .hero h1 {
+.hero h1 {
         position: absolute;
         top: 20px;
         left: 50%;
@@ -101,8 +101,55 @@ nav,p,section,article{
         font-size: small;
         text-align: justify;
     }
+    #history{
+        display: flex;
+        border: 1px solid  rgba(2, 48, 71, 0.8);
+        
+    }
+    #history p{
+        text-align: justify;
+    }
 
+    .center {
+        border-radius: 10%;
+        width: 25%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        box-shadow: 0 0 10px rgb(117, 110, 110);
+    }
+
+    #adventure{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #fb8500;
+        padding: 5%;
+    }
+    figure{
+        color: var(--primary-color);
+        width: 20%;
+        text-align: center;
+        background-color: var(--secondary-color);
+        border-radius: 5%;
+        box-shadow:0 0 10px rgb(255, 254, 254) ;
+    }
+    figure img{
+        width: 95%;
+        margin: 2%;
+        border-radius: 5%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--primary-color);
+        color: var(--accent2-color);
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
     .socialmedia a{
+    
         text-decoration: none;
 
     }
