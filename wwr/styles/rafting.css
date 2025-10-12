@@ -155,4 +155,29 @@ nav,p,section,article{
         text-decoration: none;
 
     }
-    
+    /*-- the contact css -- */
+    .address{
+        text-align: center;
+    }
+    .map{
+        display: flex;
+    }
+    iframe{
+        padding: 3%;
+        border-radius: 5%;
+    }
+    form{
+        padding: 3%;
+        border: 1px solid rgba(2, 48, 71, 0.8);
+    }
+    #staff{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        box-shadow: 0 0 10px rgb(255, 254, 254);
+        background-color: var(--accent1-color);
+        padding: 2%;
+    }
+    figure{
+
+    }
