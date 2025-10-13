@@ -42,15 +42,27 @@
             </div>
             <div>
                 <form action="">
-                    <label for="userName">Name <small>(Optional)</small></label>
-                    <input type="text" id="userName" name="userName" placeholder="Enter your name">
-                    <label for="userName"> Email <small>(Optional)</small></label>
-                    <input type="text" id="userName" name="userName" placeholder="Enter your name">
-                    <label><input type="radio" name="rating" value="1" required>General Enquiry</label>
+                    <div class="personal-details">
+                    <label for="userName">Name </label>
+                    <input type="text" id="userName"  placeholder="Enter your name">
+                    <label for="email"> Email</label>
+                    <input type="email" id="userName"  placeholder="Enter your email" height="5px">
+                    </div>
 
+                    <div class="radio">
+                    <label><input type="radio" id = "radio" value="1" required>General Enquiry</label>
+                    <label><input type="radio" id="radio" value="1" required>Reservation Question</label>
+                    <label><input type="radio" id =radio value="1" required>Website Suggestion</label>
+                    </div>
+                    <div class = "checkbox">
+                    <label><input type="checkbox" id="checkbox" value="1">Subscribe to Newsletter</label>
+                    </div>
+                    <div class="message">
                     <label for="reviewText">Message <small>(Optional)</small></label>
-                    <textarea id="reviewText" name="reviewText" rows="4" placeholder="Type here..."></textarea>
-                    <input type="submit" value="Get in Touch!">
+                    <textarea id="reviewText" name="reviewText" rows="4" placeholder="Type here..."></textarea></div>
+                    <div class = "submit">
+                    <input id = "submit" type="submit" value="Get in Touch!">
+                    </div>
                 </form>
             </div>
 
