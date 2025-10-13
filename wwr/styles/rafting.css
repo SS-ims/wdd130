@@ -222,6 +222,7 @@ nav,p,section,article{
     #submit{
         height:44px;
         border-radius: 10%;
+        width:17rem;
         border: none;
         background-color: #fb8500;
         color: #fff;
