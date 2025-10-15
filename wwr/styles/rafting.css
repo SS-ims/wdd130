@@ -172,7 +172,7 @@ nav,p,section,article{
         
     }
     iframe{
-        width: 500px;
+        width: 400px;
         margin: 5px;
         border-radius: 5%;
     }
@@ -182,8 +182,10 @@ nav,p,section,article{
         padding: 1%;
         margin: 5px;
         border: 1px solid rgba(2, 48, 71, 0.8);
-        width: 280px;
+        width: 320px;
+        height: 450px;;
         font-size: small;
+        border-radius: 5px;
         background-color: var(--secondary-color);
     }
     #staff{
@@ -202,6 +204,25 @@ nav,p,section,article{
         flex-direction: column;
         align-items:flex-start;
     }
+    .personal-details {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .personal-details div {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    .personal-details label {
+        flex: 1;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .personal-details input {
+        flex: 2;
+        padding: 6px;
+    }
     #reviewText{
         width: 15vw;
         height: 10vh;
@@ -210,11 +231,15 @@ nav,p,section,article{
     }
     .radio{
         display: flex;
-        flex-direction: column; 
-        gap: 10px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 2%;
+        flex-direction: row; 
+    
+        align-items: center;
+    }
+    #radios{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin: 0;
     }
     #userName{
         height: 44px;

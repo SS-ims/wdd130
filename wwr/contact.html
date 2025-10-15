@@ -30,10 +30,10 @@
             <address> Victoria Falls</address>
             <address> +263777333000</address>
             <address>info@whitewater.com</address>
-           
+
         </div>
         <section class="map">
-            
+
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14985.389345486754!2d28.639232!3d-20.119552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szw!4v1759926182471!5m2!1sen!2szw"
@@ -43,25 +43,33 @@
             <div>
                 <form action="">
                     <div class="personal-details">
-                    <label for="userName">Name </label>
-                    <input type="text" id="userName"  placeholder="Enter your name">
-                    <label for="email"> Email</label>
-                    <input type="email" id="userName"  placeholder="Enter your email" height="5px">
+                        <div>
+                            <label for="userName">Name</label>
+                            <input type="text" id="userName" placeholder="Enter your name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
                     </div>
 
                     <div class="radio">
-                    <label><input type="radio" id = "radio" value="1" required>General Enquiry</label>
-                    <label><input type="radio" id="radio" value="1" required>Reservation Question</label>
-                    <label><input type="radio" id =radio value="1" required>Website Suggestion</label>
+                        <p>Message Purpose</p>
+                        <span id="radios">
+                            <label><input type="radio" id="radio1" value="1" required>General Enquiry</label>
+                            <label><input type="radio" id="radio2" value="1" required>Reservation Question</label>
+                            <label><input type="radio" id="radio3" value="1" required>Website Suggestion</label>
+                        </span>
                     </div>
-                    <div class = "checkbox">
-                    <label><input type="checkbox" id="checkbox" value="1">Subscribe to Newsletter</label>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="checkbox" value="1">Subscribe to Newsletter</label>
                     </div>
                     <div class="message">
-                    <label for="reviewText">Message <small>(Optional)</small></label>
-                    <textarea id="reviewText" name="reviewText" rows="4" placeholder="Type here..."></textarea></div>
-                    <div class = "submit">
-                    <input id = "submit" type="submit" value="Get in Touch!">
+                        <label for="reviewText">Message <small>(Optional)</small></label>
+                        <textarea id="reviewText" name="reviewText" rows="4" placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="submit">
+                        <input id="submit" type="submit" value="Get in Touch!">
                     </div>
                 </form>
             </div>
@@ -70,7 +78,9 @@
         <section>
             <h2>We Are Here to Serve You</h2>
             <div id="staff">
-                <figure><img src="images/profile.jpg" alt=""><figcaption></figcaption>Corporate Training Host</figure>
+                <figure><img src="images/profile.jpg" alt="">
+                    <figcaption></figcaption>Corporate Training Host
+                </figure>
                 <figure><img src="images/profile.jpg" alt="">
                     <figcaption>Trips Coordinator</figcaption>
                 </figure>
