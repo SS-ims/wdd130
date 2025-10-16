@@ -173,20 +173,22 @@ nav,p,section,article{
     }
     iframe{
         width: 400px;
-        margin: 5px;
+        margin: 24px 10px;
+        
         border-radius: 5%;
     }
     form{
         display: flex;
         flex-direction: column;
-        padding: 1%;
-        margin: 5px;
+        gap: 1.5em;
+        padding: 2em 1em;
+        margin: 24px auto;
         border: 1px solid rgba(2, 48, 71, 0.8);
-        width: 320px;
-        height: 450px;;
-        font-size: small;
-        border-radius: 5px;
+        max-width: 400px;
+        font-size: 1rem;
+        border-radius: 8px;
         background-color: var(--secondary-color);
+        /* Remove fixed height so form grows with content */
     }
     #staff{
         display: flex;
@@ -198,11 +200,11 @@ nav,p,section,article{
     }
 
     .personal-details{
-        width: 40%;
-        margin: 2%;
+        width: 100%;
+        margin: 0 0 1em 0;
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
+        gap: 1em;
     }
     .personal-details {
         display: flex;
@@ -211,23 +213,34 @@ nav,p,section,article{
     }
     .personal-details div {
         display: flex;
-        align-items: center;
-        gap: 1em;
+        flex-direction: column;
+        gap: 0.5em;
     }
     .personal-details label {
-        flex: 1;
-        text-align: right;
-        margin-right: 10px;
+        text-align: left;
+        margin-bottom: 4px;
+        font-weight: bold;
     }
     .personal-details input {
-        flex: 2;
-        padding: 6px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid var(--secondary-color);
+        border-radius: 6px;
+        font-size: 1rem;
     }
     #reviewText{
-        width: 15vw;
-        height: 10vh;
-        margin-top: 5px;
-        margin-bottom: 5%;
+        position: absolute;
+        bottom: -53%;
+        width: 15%;
+        left: 60%;
+        height: 3.7rem;
+
+        margin-top: 3px;
+        margin-bottom: 16px;
+        padding: 3px;
+        border: 1px solid var(--secondary-color);
+        border-radius: 6px;
+        font-size: 1rem;
     }
     .radio{
         display: flex;
@@ -242,16 +255,21 @@ nav,p,section,article{
         margin: 0;
     }
     #userName{
-        height: 44px;
+        height: auto;
     }
     #submit{
-        height:44px;
-        border-radius: 10%;
-        width:17rem;
+        height: 44px;
+        border-radius: 8px;
+        width: 100%;
         border: none;
         background-color: #fb8500;
         color: #fff;
+        font-size: 1.1rem;
+        margin-top: 12px;
+        cursor: pointer;
     }
-    #submit ::hover{
-        border: 1px solid var(--primary-color);
+    #submit:hover{
+        background-color: var(--accent2-color);
+        color: var(--primary-color);
+        cursor: pointer;
     }
