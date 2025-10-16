@@ -272,3 +272,139 @@ nav,p,section,article{
         color: var(--primary-color);
         cursor: pointer;
     }
+
+    /* === Trips Page Enhancements === */
+
+/* Make the trips section flexible */
+#adventure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: var(--accent1-color);
+    padding: 2%;
+}
+
+#adventure figure {
+    width: 28%;
+    min-width: 240px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+#adventure figcaption {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+/* === Table Styling === */
+table, th, td {
+    border: 1px solid var(--primary-color);
+}
+
+th, td {
+    padding: 0.75em;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f9ff;
+}
+
+tbody tr:hover {
+    background-color: #ffe6cc;
+    transition: 0.3s;
+}
+
+/* === CTA Button Hover === */
+a[href="contact.html"]:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+/* === Trips Page Enhancements === */
+
+/* Trip cards section */
+#adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background-color: var(--accent1-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#adventure figure {
+    width: 27%;
+    min-width: 240px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+#adventure figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#adventure figcaption {
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+/* Trips Table */
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid var(--primary-color);
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.trips-table thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trips-table tbody tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+.trips-table tbody tr:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+/* CTA button styling */
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
